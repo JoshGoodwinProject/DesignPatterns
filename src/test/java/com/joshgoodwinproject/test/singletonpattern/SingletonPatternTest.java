@@ -15,6 +15,8 @@ public class SingletonPatternTest {
         Logger log1 = Logger.getInstance();
         Logger log2 = Logger.getInstance();
 
+        Assert.assertNotNull(log1);
+        Assert.assertNotNull(log2);
         Assert.assertEquals(log1, log2);
 
     }
