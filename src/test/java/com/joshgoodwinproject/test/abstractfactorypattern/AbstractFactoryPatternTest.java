@@ -2,27 +2,15 @@ package com.joshgoodwinproject.test.abstractfactorypattern;
 
 import com.joshgoodwinproject.abstractfactorypattern.AbstractFactory;
 import com.joshgoodwinproject.abstractfactorypattern.FactoryProducer;
-import com.joshgoodwinproject.abstractfactorypattern.SportFactory;
 import com.joshgoodwinproject.abstractfactorypattern.games.Game;
 import com.joshgoodwinproject.abstractfactorypattern.sports.Sport;
-import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
  * Created by Josh on 10/8/2016.
  */
 public class AbstractFactoryPatternTest {
-
-    @BeforeClass
-    public static void beforeTests(){
-
-    }
-    @AfterClass
-    public static void afterTests(){
-
-    }
 
     @Test
     public void factoryPatternTest(){

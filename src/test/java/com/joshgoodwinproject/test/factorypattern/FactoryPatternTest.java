@@ -2,9 +2,8 @@ package com.joshgoodwinproject.test.factorypattern;
 
 import com.joshgoodwinproject.factorypattern.Vehicle;
 import com.joshgoodwinproject.factorypattern.VehicleFactory;
-import org.junit.AfterClass;
+
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 /**
@@ -12,19 +11,11 @@ import org.junit.Test;
  */
 public class FactoryPatternTest {
 
-    @BeforeClass
-    public static void beforeTests(){
-
-    }
-    @AfterClass
-    public static void afterTests(){
-
-    }
 
     @Test
     public void factoryPatternTest(){
 
-        String vehicleMove = null;
+        String vehicleMove;
 
         VehicleFactory vf = new VehicleFactory();
         Vehicle nullVehicle = vf.getVehicle("");
