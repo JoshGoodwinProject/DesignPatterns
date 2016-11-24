@@ -13,7 +13,7 @@ import org.junit.Test;
 public class AbstractFactoryPatternTest {
 
     @Test
-    public void factoryPatternTest(){
+    public void abstractFactoryPatternTest(){
 
         //Get all of the sports from the sports factory
         AbstractFactory sportsFactory = FactoryProducer.getFactory("Sport");
